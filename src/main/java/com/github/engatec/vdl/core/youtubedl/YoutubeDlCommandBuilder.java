@@ -255,8 +255,8 @@ public class YoutubeDlCommandBuilder {
     }
 
     public YoutubeDlCommandBuilder dlDescription() {
-        commandList.add("--print-to-file description");
-        commandList.add("%(title)s [%(id)s].description");
+//        commandList.add("--print-to-file description");
+//        commandList.add("%(title)s [%(id)s].description");
         return this;
     }
 

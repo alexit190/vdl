@@ -10,7 +10,7 @@ public enum Resolution {
     FULL_HD(1080, "Full HD"),
     HD(720, "HD"),
     SD(480, "SD"),
-    SD_360(360, "SD (360)");
+    SD_360(360, "SD 360");
 
     private final int height;
     private final String description;
