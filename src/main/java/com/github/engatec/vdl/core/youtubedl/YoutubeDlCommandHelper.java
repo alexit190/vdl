@@ -175,4 +175,8 @@ public class YoutubeDlCommandHelper {
             commandBuilder.videoPassword(videoPassword);
         }
     }
+
+    public static void setDlDescription(YoutubeDlCommandBuilder commandBuilder) {
+        commandBuilder.dlDescription();
+    }
 }

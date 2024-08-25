@@ -31,6 +31,7 @@ public class DownloadProcessBuilder implements YoutubeDlProcessBuilder {
                 .ffmpegLocation(ApplicationContext.getInstance().getAppBinariesDir().toString());
 
         YoutubeDlCommandHelper.setOutputPath(commandBuilder, downloadable);
+        YoutubeDlCommandHelper.setDlDescription(commandBuilder);
         YoutubeDlCommandHelper.setGeneralOptions(commandBuilder);
         YoutubeDlCommandHelper.setSubtitlesOptions(commandBuilder);
         YoutubeDlCommandHelper.setDownloadOptions(commandBuilder);
